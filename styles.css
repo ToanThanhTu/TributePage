@@ -1,3 +1,4 @@
+/* Base styling for HTML elements */
 html {
   font-family: Verdana, sans-serif;
   font-size: 16px;
@@ -5,23 +6,27 @@ html {
   background-color: #567d46;
 }
 
+/* Center-align text and add padding to the header area */
 header {
   text-align: center;
   padding: 0.5em 0;
 }
 
+/* Increase font size of h1 for emphasis */
 h1 {
   font-size: 3em;
 }
 
+/* Body styling */
 body {
-  margin: 0 auto;
-  width: 80%;
-  min-width: 220px;
+  margin: 0 auto; /* Center align the body content */
+  width: 80%; /* Set a maximum width for better readability */
+  min-width: 220px; /* Ensure a minimum width for smaller screens */
   background-color: rgb(240, 240, 240);  
   padding: 0 1em 2em 1em;
 }
 
+/* Styling for the figure containing the image */
 #img-div {
   text-align: center;
   background-color: white;
@@ -29,21 +34,19 @@ body {
   margin: 0;
 }
 
+/* Image styling */
 #image {
-  width: 80%;
-  max-width: 100%;
+  width: 80%; /* dynamic width */
+  max-width: 500px;
   min-width: 200px;
-}
-
-#img-caption {
-  margin: 1.5em auto;
-}
-
-img {
   display: block;
-  max-width: 100%;
   height: auto;
   margin: 0 auto;
+}
+
+/* Styling for the image caption */
+#img-caption {
+  margin: 1.5em auto;
 }
 
 h3 {
@@ -51,15 +54,18 @@ h3 {
   margin: 2em auto;
 }
 
+/* Styling for unordered lists */
 ul {
   max-width: 600px;
   margin: 0 auto;
 }
 
+/* Margin for list items */
 li {
   margin: 1em auto;
 }
 
+/* Styling for blockquote elements */
 blockquote {
   font-style: italic;
   max-width: 550px;
@@ -68,6 +74,15 @@ blockquote {
 
 h4 {
   text-align: center;
-  max-width: 600px;
-  margin: 0 auto;
+  max-width: 600px; /* Limit maximum width of h4 */
+  margin: 0 auto; /* Center-align h4 */
+}
+
+/* Footer styling */
+footer {
+  text-align: center;
+  padding: 1em 0;
+  font-size: 13px;
+  font-style: italic;
+  line-height: 0.5;
 }
